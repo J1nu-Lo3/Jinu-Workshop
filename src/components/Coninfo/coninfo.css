@@ -1,0 +1,85 @@
+.contact {
+  background: #eee;
+  padding: 40px 0 60px;
+}
+
+.contact-title {
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-size: 32px;
+}
+
+.contact-box {
+  width: 80%;
+  margin: auto;
+  background: #ddd;
+  border-radius: 15px;
+  padding: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contact-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-left h2 {
+  margin-bottom: 20px;
+}
+
+.contact-left label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-left input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #eee;
+}
+
+.contact-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-left textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #eee;
+  height: 200px;
+  resize: none;
+}
+
+.contact-left button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-left button:hover {
+  background: #333;
+}
+
+.contact-right {
+  width: 50%;
+  text-align: center;
+}
+
+.qr-code {
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 20px;
+}

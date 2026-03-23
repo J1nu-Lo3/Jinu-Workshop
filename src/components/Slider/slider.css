@@ -1,0 +1,43 @@
+.slider {
+  background: #e1efff;
+  padding: 40px 0;
+}
+
+.slider-container {
+  overflow: hidden;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slider-track img {
+  width: 100%;
+  flex-shrink: 0;
+  height: 600px;
+  object-fit: cover;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.preview img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.preview img.active {
+  opacity: 1;
+  border: 3px solid white;
+}

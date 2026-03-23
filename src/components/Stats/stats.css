@@ -1,0 +1,34 @@
+.stats {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  gap: 60px;
+}
+
+.stats-img {
+  width: 50%;
+}
+
+.stats-img img {
+  width: 100%;
+}
+
+.stats-text {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stats-text h2 {
+  font-size: 26px;
+}
+
+.stats-text h3 {
+  margin-top: 10px;
+}
+
+.stats-text p {
+  line-height: 1.4;
+}
